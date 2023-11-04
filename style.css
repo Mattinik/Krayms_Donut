@@ -1,0 +1,196 @@
+*{
+    font-family: sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+.Pili{
+    color:palevioletred;
+}
+
+.carousel{
+    background-image: url(m2.png);
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 50px;
+}
+.carousel-item{
+    height: 60vh;
+    min-height: 300px;
+    padding-bottom: 40px;
+}
+
+.carousel-caption{
+    top: 150px;
+    left: 8%;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    color: hotpink;
+    font-weight: 700;
+    text-align: left;
+}
+
+.carousel-caption h5 span{
+    color:darksalmon;
+}
+
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: darksalmon;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform:uppercase;
+    text-decoration: none;
+    background:pink;
+    padding: 2px 10px;
+    display: inline-block;
+    color:white;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-area img{
+
+    width:80%;
+}
+.about-text{
+    padding-top: 100px;
+}
+.about-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: darksalmon;
+}
+
+.about-text p{
+    color: hotpink;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .favorite h2{
+    font-size: 30px;
+    font-weight: 600;
+    color:palevioletred;
+    text-align: center;
+}
+
+  .card{
+    border: none;
+  }
+  .card-img-top{
+    width: 300px;
+    height: 250px;
+    transition: transform .5s;
+    margin: 0 auto;
+}
+.card-img-top:hover {
+  transform: scale(1.5);
+}
+.card-title{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.contacts{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.socials{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+.pt-5 {
+    font-size: 17px;
+    color: pink;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 17px;
+}
+footer p{
+    font-size: 17px;
+}
+footer a:hover{
+    color: rgb(194, 116, 22) !important;
+}
+footer i{
+    font-size: 25px;
+    margin: 8px;
+}
+.fas{
+    margin: 8px;
+    font-size: 17px;
+
+}
+
+.AllCU{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position:center;
+    padding-top: 100px;
+}
+.CUP{
+     color:palevioletred;
+}
+
+.donuts{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.AU{
+    text-align: center;
+    color: palevioletred;
+}
+.card-img-tops {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+@media only screen and (max-width:767px){
+    .carousel-caption{
+        top: 50px;
+        bottom: 100px;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
